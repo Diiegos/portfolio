@@ -1,0 +1,29 @@
+@import './header.css';
+@import './personal-info.css';
+@import './Intro.css';
+@import './section-proyect.css';
+@import './testimony.css';
+@import './marvol.css';
+@import './netnet.css';
+@import './form.css';
+@import './footer.css';
+
+:root{
+  --greenprimary: #42E2B8;
+  --darksoft: #0F0A0A;
+}
+
+body{
+  background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
+  font-family: 'Oxygen', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.wrapper{
+  inline-size: 1100px;
+  margin: auto;
+
+}

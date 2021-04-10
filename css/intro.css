@@ -1,0 +1,17 @@
+.introduction{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 200px, 233px, 200px, 233px;
+  height: 678px;
+   font-weight: 300;
+  font-size: 34px;
+}
+
+.introduction p{
+  font-size: 24px;
+  font-weight: 700;
+
+}
