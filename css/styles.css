@@ -133,6 +133,17 @@ html{
   justify-content: center;
 }
 
+  .introduction-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .introduction p{
+    font-weight: 700;
+  }
+
 
   .testimony{
     display: flex;
@@ -475,6 +486,25 @@ html{
     font-size: 24px;
     opacity: 0.5;
   }
+
+  .introduction {
+    height: 678px;
+    font-weight: 300;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+  }
+
+    .introduction-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .introduction p{
+      font-weight: 700;
+    }
 
   .section-project{
     display: flex;
