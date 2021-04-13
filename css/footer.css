@@ -1,5 +1,9 @@
 .footer-main{
   display: flex;
-  justify-content: space-around;
-  height: 83px;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 220px;
+
 }

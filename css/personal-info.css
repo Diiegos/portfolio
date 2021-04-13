@@ -1,12 +1,24 @@
 .personal-information{
   display: flex;
+  flex-direction: column-reverse;
+}
+
+.personal-img img {
+  width: 314px;
+  height: 299px;
+
+}
+
+.personal-img{
+  display: flex;
+  justify-content: center;
 }
 
 .personal-presention{
   display: flex;
   flex-direction: column;
-  inline-size: 543px;
-  margin-block-start: 75px ;
+
+
 }
 
 .personal-presention h1{
@@ -29,28 +41,4 @@
   margin-inline-start: 8px;
 }
 
-.elipse{
-  position: absolute;
-  border-radius: 50%;
-  width: 400px;
-  height: 400px;
-  left: -100px;
-  top: 68px;
-  opacity: 0.7;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(191, 53, 142, 0.5) 0%, rgba(191, 53, 142, 0) 100%);
-  backdrop-filter: blur(199px);
-  z-index: -1;
-}
 
-.elipse-2{
-  position: absolute;
-  width: 400px;
-  height: 400px;
-  left: 377px;
-  top: 544px;
-  border-radius: 50%;
-  opacity: 0.7;
-  background: radial-gradient(155% 155% at 50% 50%, rgba(40, 234, 232, 0.4) 0%, rgba(40, 234, 232, 0) 28.86%);
-  backdrop-filter: blur(50px);
-  z-index: -1;
-}
