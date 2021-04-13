@@ -125,6 +125,14 @@ html{
     z-index: -1;
   }
 
+  .introduction{
+
+  height: 678px;
+  font-weight: 300;
+  font-size: 34px;
+
+  }
+
 
   .testimony{
     display: flex;
@@ -570,8 +578,8 @@ html{
     position: absolute;
     width: 400px;
     height: 400px;
-    left: 766px;
-    top: 2459px;
+    left: 950px;
+    top: 2000px;
     background: radial-gradient(155% 155% at 50% 50%, rgba(40, 234, 232, 0.4) 0%, rgba(40, 234, 232, 0) 28.86%);
     backdrop-filter: blur(199px);
     z-index: -1;
@@ -654,7 +662,7 @@ html{
       width: 400px;
       height: 400px;
       left: -35px;
-      top: 5400px;
+      top: 4830px;
       border-radius: 50%;
       background: radial-gradient(155% 155% at 50% 50%, rgba(40, 234, 232, 0.4) 0%, rgba(40, 234, 232, 0) 28.86%);
       backdrop-filter: blur(60px);
