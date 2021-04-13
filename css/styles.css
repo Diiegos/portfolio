@@ -1,6 +1,6 @@
 @import './header.css';
 @import './personal-info.css';
-@import './Intro.css';
+@import './intro.css';
 @import './section-proyect.css';
 @import './testimony.css';
 @import './marvol.css';
@@ -133,12 +133,6 @@ html{
   justify-content: center;
 }
 
-  .introduction-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 
   .introduction p{
     font-weight: 700;
