@@ -9,11 +9,6 @@
 
 }
 
-.personal-img{
-  display: flex;
-  justify-content: center;
-}
-
 .personal-presention{
   display: flex;
   flex-direction: column;

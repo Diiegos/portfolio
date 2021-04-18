@@ -42,6 +42,10 @@ line-height: 25px;
 .github {
   width: 18px;
   height: 18px;
+  position: relative;
+  left: 1.95px;
+  top: 2.99px;
+  margin-right: 8px;
 
 }
 
@@ -57,10 +61,13 @@ line-height: 25px;
   box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
   border-radius: 90px;
   outline: none;
+  cursor: pointer;
+
 }
 
 .button-git{
   justify-content: center;
+  align-items: center;
   font-weight: 700;
   font-size: 14px;
   background: transparent;
@@ -71,16 +78,17 @@ line-height: 25px;
   box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
   border-radius: 90px;
   line-height: 22px;
+  outline: none;
+  cursor: pointer;
+
 }
 
 .buttons{
   display:flex;
   flex-direction: column-reverse;
-  gap: 16px
+  gap: 16px;
 ;
 }
 
-.github{
-  margin-left: 0;
-}
+
 
