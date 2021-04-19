@@ -26,6 +26,10 @@
 ;
 }
 
+.header-button span {
+  display: none;
+}
+
 .header-nav{
   inline-size: 299px;
   block-size: 29px;

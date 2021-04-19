@@ -5,5 +5,10 @@
   align-items: center;
   text-align: center;
   height: 220px;
+  line-height: 25px;
+}
 
+.footer-main img{
+  position: relative;
+  top: 3.3px;
 }

@@ -86,6 +86,10 @@ html{
   ;
   }
 
+  .header-button span {
+    display: unset ;
+  }
+
 
   .personal-information{
     display: flex;
@@ -353,6 +357,10 @@ html{
 
     }
 
+    .section-form p{
+      text-align: center;
+    }
+
     .section-form a{
       padding: 10px;
     }
@@ -375,6 +383,14 @@ html{
         border-radius: 50%;
         background: radial-gradient(155% 155% at 50% 50%, rgba(40, 234, 232, 0.4) 0%, rgba(40, 234, 232, 0) 28.86%);
         backdrop-filter: blur(50px);
+    }
+
+    .footer-main br {
+      display: none;
+    }
+
+    .footer-main p{
+      text-align: center;
     }
 
 
