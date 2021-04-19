@@ -184,18 +184,19 @@
     <div class="wrapper">
       <div class="elipse-5"></div>
       <div class="section-form">
-        <form action="">
+        <form id="form" action="" class="form">
           <a href="" id="hablemos">HABLEMOS</a>
           <p>Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.</p>
-          <label for="#Name">Nombre completo</label>
-          <input required type="text" placeholder="Nombre" id="Name">
-          <label for="#Email">Correo electronico</label>
-          <input required type="email" placeholder="ejemplo@gmail.com" id="Email">
-          <label for="">Mensaje</label>
-          <textarea required name="" id="" cols="30" rows="10"></textarea>
-          <button>ENVIAR MENSAJE</button>
+          <label for="name">Nombre completo</label>
+          <input required type="text" placeholder="Nombre" name="name">
+          <label for="email">Correo electronico</label>
+          <input required type="email" placeholder="ejemplo@gmail.com" name="email">
+          <label for="message">Mensaje</label>
+          <textarea required name="message"  cols="30" rows="10"></textarea>
+          <button type="submit">ENVIAR MENSAJE</button>
         </form>
       </div>
+      <a class="enlace" href="mailto:Diiegos89@gmail.com" id="enlace">Mail</a>
     </div>
   </section>
   <div class="footer">
@@ -214,6 +215,22 @@
       </footer>
     </div>
   </div>
+  <script>
+   const $form = document.querySelector('#form');
+   const $buttonMail = document.querySelector('#enlace');
+
+   $form.addEventListener('submit', handlSubmit )
+
+   function handlSubmit(event){
+    event.preventDefault();
+
+  const form =  new FormData(this);
+
+    $buttonMail.setAttribute('href', `mailto:diiegos89@gmail.com?subject= Nombre ${form.get('name')} Correo ${form.get('email')}&body=${form.get('message')}`);
+    $buttonMail.click();
+
+   }
+  </script>
 </body>
 
 </html>
